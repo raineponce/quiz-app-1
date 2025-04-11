@@ -10,21 +10,21 @@ const Stack = createNativeStackNavigator();
 
 let questionList = [
   {
-    prompt: "1. Multiple choice question",
+    prompt: "1. Multiple choice: Which fruit is red?",
     type: "multiple-choice",
-    choices: ["choice 1", "choice 2", "choice 3"],
+    choices: ["Apple", "Banana", "Orange"],
     correct: 0,
   },
   {
-    prompt: "2. Multiple answer question",
+    prompt: "2. Multiple answer: Which fruit is yellow?",
     type: "multiple-answer",
-    choices: ["choice 1", "choice 2", "choice 3", "choice 4"],
+    choices: ["Banana", "Cherries", "Lemon", "Kiwi"],
     correct: [0, 2],
   },
   {
-    prompt: "3. True or false question",
+    prompt: "3. True or false: Tomato is a fruit",
     type: "true-false",
-    choices: ["true", "false"],
+    choices: ["True", "False"],
     correct: 1,
   },
 ];
